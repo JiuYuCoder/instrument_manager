@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: 123456
+    url: jdbc:mysql://127.0.0.1/instrument_management?characterEncoding=utf-8&useSSl=false
+  jackson:
+    default-property-inclusion: non_null
+server:
+  context-path: /measure
+
